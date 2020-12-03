@@ -1,52 +1,41 @@
 {
-  "name": "react-password-checklist",
-  "version": "1.0.7",
-  "keywords": [
-    "password",
-    "strength",
-    "indicator",
-    "meter",
-    "validator",
-    "validation",
-    "form",
-    "signup",
-    "account",
-    "creation",
-    "signin"
-  ],
-  "description": "A React Component to display the success or failure of password strength rules",
-  "public": true,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "tsc",
-    "build-storybook": "build-storybook -s public",
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "prepare": "npm run build",
-    "storybook": "start-storybook -p 9009 -s public",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage --colors"
+  "_from": "react-password-checklist",
+  "_id": "react-password-checklist@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-y8tsCSSw1YenNCJgt28HX6nXTTUJO8CBfyQkZbL1bIOjntn3wrmWExXWT22CFd1iM/yPy4hbyFp/w6V9Dl+FMA==",
+  "_location": "/react-password-checklist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-password-checklist",
+    "name": "react-password-checklist",
+    "escapedName": "react-password-checklist",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sators/react-password-checklist.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-password-checklist/-/react-password-checklist-1.0.7.tgz",
+  "_shasum": "f6a981aef42c75dbf2218878aeb03ebd0fc4f70e",
+  "_spec": "react-password-checklist",
+  "_where": "F:\\code\\hiwi_comtec\\android\\backend-go\\password_reset",
+  "author": {
+    "name": "Sators",
+    "email": "sators@sators.com"
   },
-  "author": "Sators <sators@sators.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sators/react-password-checklist/issues"
   },
-  "homepage": "https://github.com/sators/react-password-checklist#readme",
+  "bundleDependencies": false,
   "dependencies": {
     "styled-components": "^5.1.1"
   },
-  "peerDependencies": {
-    "react": "^16.8.0"
-  },
+  "deprecated": false,
+  "description": "A React Component to display the success or failure of password strength rules",
   "devDependencies": {
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
@@ -69,5 +58,45 @@
     "ts-jest": "^26.1.4",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7"
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/sators/react-password-checklist#readme",
+  "keywords": [
+    "password",
+    "strength",
+    "indicator",
+    "meter",
+    "validator",
+    "validation",
+    "form",
+    "signup",
+    "account",
+    "creation",
+    "signin"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-password-checklist",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "public": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sators/react-password-checklist.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-storybook": "build-storybook -s public",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "prepare": "npm run build",
+    "storybook": "start-storybook -p 9009 -s public",
+    "test": "jest",
+    "test:coverage": "jest --coverage --colors",
+    "test:watch": "jest --watch"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.7"
 }
